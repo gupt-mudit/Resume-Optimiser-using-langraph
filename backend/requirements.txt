@@ -23,6 +23,7 @@ PyMuPDF  # For PDF parsing in PyMuPDFLoader
 newspaper3k  # For web scraping job descriptions
 pypdf  # Often required by LangChain for PDF handling
 tqdm  # For progress bars (used internally by LangChain)
+lxml[html_clean]  # ✅ Fix for missing lxml.html.clean module
 
 # Data & Env Management
 python-dotenv  # .env support for secrets
@@ -37,4 +38,3 @@ typing_extensions  # for TypedDict
 
 # Tooling
 shutilwhich  # sometimes needed when shutil triggers subprocess
-
