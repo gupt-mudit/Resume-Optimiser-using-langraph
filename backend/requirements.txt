@@ -1,0 +1,40 @@
+# FastAPI Core
+fastapi
+uvicorn
+python-multipart  # for file uploads
+
+# Streamlit (frontend, if shared repo)
+streamlit
+requests
+
+# LangChain Core
+langchain
+langchain-core
+langchain-community
+langchain-text-splitters
+langgraph
+langchain-google-genai
+
+# Google Generative AI
+google-generativeai  # for Gemini LLM and embeddings
+
+# Document handling
+PyMuPDF  # For PDF parsing in PyMuPDFLoader
+newspaper3k  # For web scraping job descriptions
+pypdf  # Often required by LangChain for PDF handling
+tqdm  # For progress bars (used internally by LangChain)
+
+# Data & Env Management
+python-dotenv  # .env support for secrets
+pydantic
+typing_extensions  # for TypedDict
+
+# OPTIONAL: Vector Store Support (AstraDB, FAISS, Chroma)
+# cassio  # required for AstraDB if used later
+# faiss-cpu  # if using FAISS
+# chromadb  # if using ChromaDB
+# redis  # if caching memory in Redis
+
+# Tooling
+shutilwhich  # sometimes needed when shutil triggers subprocess
+
