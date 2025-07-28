@@ -11,8 +11,8 @@ from langgraph.graph import StateGraph
 from typing_extensions import List, TypedDict
 from langchain_core.documents import Document
 
-from backend import ats_feedback_response, chat_memory_manager, jd_loader
-from backend.document_loader import DocumentLoader
+import ats_feedback_response, chat_memory_manager, jd_loader
+from document_loader import DocumentLoader
 
 
 load_dotenv()
