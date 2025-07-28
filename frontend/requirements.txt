@@ -1,2 +1,3 @@
 streamlit
 requests
+python-dotenv  # .env support for secrets
